@@ -1,0 +1,7 @@
+FROM ghcr.io/dopos/docker-alpine:v3.14
+RUN apk add --no-cache git make musl-dev go
+
+ENV GOPATH /go
+ENV PATH $GOPATH/bin:$PATH
+RUN mkdir -p "$GOPATH/src" "$GOPATH/bin" && chmod -R 777 "$GOPATH"
+WORKDIR $GOPATH
