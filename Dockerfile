@@ -1,4 +1,4 @@
-FROM ghcr.io/dopos/docker-alpine:v3.14
+FROM ghcr.io/dopos/docker-alpine:v3.14.2
 RUN apk add --no-cache git make musl-dev go
 
 ENV GOPATH /go
