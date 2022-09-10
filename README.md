@@ -1,2 +1,2 @@
 # golang-alpine
-golang repo based on ghcr.io/dopos/docker-alpine:v3.14
+golang repo v1.18.6 based on ghcr.io/dopos/docker-alpine:v3.16.2
