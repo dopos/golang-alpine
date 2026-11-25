@@ -1,4 +1,4 @@
-FROM ghcr.io/dopos/docker-alpine:v3.21.3
+FROM ghcr.io/dopos/docker-alpine:v3.24.4
 ARG TARGETARCH
 RUN apk add --no-cache git make musl-dev go
 
